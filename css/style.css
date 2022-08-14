@@ -1172,7 +1172,7 @@ h6 {
 .orido_tm_informations .skillbox {
 	width: 100%;
 	float: left;
-	margin-top: 110px;
+	margin-top: 85px;
 }
 
 .orido_tm_informations .skillbox ul {
@@ -2103,7 +2103,8 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #FFC448;
+	/* background-color: #FFC448; */
+	/* background-color: #fff; */
 	padding: 120px 0px 110px 0px;
 }
 
@@ -2154,6 +2155,7 @@ h6 {
 	text-decoration: none;
 	text-transform: uppercase;
 	overflow: hidden;
+	border: 1px solid #555;
 }
 
 #portfolio-section .portfolio-container .box:hover {
@@ -2175,7 +2177,8 @@ h6 {
 #portfolio-section .portfolio-container .box:hover .image .hover-bg {
 	border-radius: 5px;
 	padding: 10px 20px;
-	background: rgba(255, 255, 255, .6);
+	/* background: rgba(255, 255, 255, .6); */
+	background: rgba(50, 50, 50, .6);
 }
 
 #portfolio-section .portfolio-container .box .image .hover-bg .title {
