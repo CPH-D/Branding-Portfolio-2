@@ -1,0 +1,84 @@
+.header{
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.header-invis{
+    background-color: #000;
+    height: 6rem;
+    width: 100%;
+    opacity: .75;
+    z-index: 2000;
+    position: absolute;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 120rem;
+    height: 6rem;
+    z-index: 3000;
+    /* border: 1px solid white; */
+}
+
+.header-mobile-container{
+    display: none;
+}
+
+.header-left, .header-right{
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-left div img{
+    margin-right: 4rem;
+}
+
+.header-header{
+    font-size: 1.4rem;
+    color: #fff;
+    margin-right: 4.1rem;
+}
+
+.header-header:hover{
+    color: #13bfd6;
+}
+
+.store-btn{
+    color: #fff;
+    background: #00bfd6;
+    font-size: 1.4rem;
+    padding: 1rem 1.6rem;
+    border-radius: 6px;
+}
+
+.header-icon{
+    color: #fff;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+.search-icon{
+    margin-left: 2rem;
+}
+
+.user-icon{
+    margin-right: 6rem;
+}
+
+/* ****************************** */
+        /* THIN COLORFUL LINE STYLE */
+/* ****************************** */
+
+.thin-line-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .2rem;
+    width: 100%;
+}

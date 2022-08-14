@@ -1,0 +1,28 @@
+.section-msg-us{
+    position: fixed;
+    z-index: 1000;
+    top: 94%;
+    left: 89.5%;
+}
+
+.blue-bubble{
+    font-size: 14px;
+    color: #fff;
+    width: 17.5rem;
+    height: 3.8rem;
+    background-color: #00bfd6;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.msg-circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #238bf9;
+    border: 1px solid #fff;
+    margin-right: .6rem;
+}
