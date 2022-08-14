@@ -861,7 +861,7 @@ h6 {
 	float: left;
 	background-color: #6244C5;
 	padding: 180px 0px 120px 0px;
-	margin-bottom: 120px;
+	/* margin-bottom: 120px; */
 }
 
 .orido_tm_about .about_in {
@@ -1027,6 +1027,7 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
+	padding: 180px 0px 0px 0px;
 	margin-bottom: 125px;
 }
 
