@@ -1181,10 +1181,12 @@ h6 {
 }
 
 .orido_tm_informations .skillbox ul li {
-	margin: 0px 0px 45px 0px;
+	margin: 0px 0px 35px 0px;
 	width: 33.3333%;
+	/* width: 25%; */
 	float: left;
-	padding-left: 20px;
+	/* padding-left: 20px; */
+	text-align: center;
 }
 
 .orido_tm_informations .skillbox ul li .list_inner {
