@@ -1182,8 +1182,8 @@ h6 {
 
 .orido_tm_informations .skillbox ul li {
 	margin: 0px 0px 35px 0px;
-	width: 33.3333%;
-	/* width: 25%; */
+	/* width: 33.3333%; */
+	width: 25%;
 	float: left;
 	/* padding-left: 20px; */
 	text-align: center;
@@ -1303,6 +1303,67 @@ h6 {
 .orido_tm_informations .orido_tm_boxed_button a .svg path {
 	fill: #fff;
 }
+
+/*---------------------------------------------------*/
+/*	06.1) ORIDO CMS
+/*---------------------------------------------------*/
+
+.orido_tm_cms {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding: 50px 0px 0px 0px;
+	margin-bottom: 130px;
+}
+
+.orido_tm_cms .cms_inner {
+	width: 100%;
+	height: auto;
+	/* display: flex; */
+}
+
+.cms_grid_container {
+	padding-top: 70px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 150px;
+	grid-gap: 5px;
+}
+
+.cms_box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cms_img {
+	margin-bottom: 20px;
+	height: 68px;
+	width: 68px;
+}
+
+.cms_1 {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
+.cms_2 {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+}
+
+.cms_3 {
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+}
+
+.cms_4 {
+	grid-column: 4 / 5;
+	grid-row: 1 / 2;
+}
+
 
 /*---------------------------------------------------*/
 /*	07) ORIDO COUNTER
@@ -3827,6 +3888,24 @@ h6 {
 @media (max-width: 768px) {
 	.orido_tm_informations .skillbox ul li {
 		width: 50%;
+	}
+
+	.cms_grid_container {
+		padding-top: 70px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 150px 150px;
+		grid-gap: 5px;
+	}
+
+	.cms_3 {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+
+	.cms_4 {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
 	}
 
 	.orido_tm_informations .timelinebox ul {
