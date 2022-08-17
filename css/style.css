@@ -1324,7 +1324,7 @@ h6 {
 }
 
 .cms_grid_container {
-	padding-top: 70px;
+	padding-top: 50px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 150px;
