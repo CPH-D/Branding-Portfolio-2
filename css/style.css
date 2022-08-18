@@ -450,6 +450,7 @@ h6 {
 .orido_tm_header.animate {
 	padding: 15px 150px;
 	background-color: #fff;
+	box-shadow: 0 1px 6px 0px #555;
 }
 
 .orido_tm_header .header_in {
@@ -853,6 +854,11 @@ h6 {
 /*---------------------------------------------------*/
 /*	05) ORIDO ABOUT
 /*---------------------------------------------------*/
+
+#about-section {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
 
 .orido_tm_about {
 	width: 100%;
@@ -2175,7 +2181,7 @@ h6 {
 }
 
 .orido_tm_main_title .projects_title {
-	padding-bottom: 120px;
+	padding-bottom: 60px;
 	color: #000;
 }
 
@@ -2207,7 +2213,7 @@ h6 {
 #portfolio-section .portfolio-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 300px 350px 350px;
+	grid-template-rows: 350px 350px 350px;
 	grid-gap: 10px;
 }
 
