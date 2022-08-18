@@ -859,7 +859,8 @@ h6 {
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #6244C5;
+	/* background-color: #6244C5; */
+	background-color: #0f0d72;
 	padding: 180px 0px 120px 0px;
 	/* margin-bottom: 120px; */
 }
@@ -894,7 +895,8 @@ h6 {
 	position: relative;
 	margin-right: -30px;
 	margin-top: -95px;
-	color: #6244C5;
+	/* color: #6244C5; */
+	color: #0f0d72;
 	line-height: 1;
 }
 
@@ -907,7 +909,8 @@ h6 {
 
 .orido_tm_about .name {
 	font-size: 80px;
-	color: #6244C5;
+	/* color: #6244C5; */
+	color: #0f0d72;
 	font-weight: 700;
 	letter-spacing: -4px;
 	line-height: 1;
@@ -3079,7 +3082,8 @@ h6 {
 	width: 6px;
 	height: 6px;
 	z-index: 100;
-	background-color: #6244C5;
+	/* background-color: #6244C5; */
+	background-color: #1f1e5a;
 	-webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 	transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -3089,7 +3093,8 @@ h6 {
 	margin-top: -40px;
 	width: 80px;
 	height: 80px;
-	background-color: #6244C5;
+	/* background-color: #6244C5; */
+	background-color: #0f0d72;
 	opacity: .3;
 }
 
@@ -3098,7 +3103,8 @@ h6 {
 	margin-top: -15px;
 	width: 30px;
 	height: 30px;
-	border: 2px solid #6244C5;
+	/* border: 2px solid #6244C5; */
+	border: 2px solid #0f0d72;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	z-index: 100;
