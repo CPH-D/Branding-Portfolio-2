@@ -751,6 +751,7 @@ h6 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	fill: #0f0d72;
 	transform: translate(-50%, -50%);
 
 	-webkit-transition: all .3s ease;
