@@ -1286,7 +1286,8 @@ h6 {
 }
 
 .orido_tm_informations .timelinebox .time .year {
-	color: #6244C5;
+	/* color: #6244C5; */
+	color: #12458c;
 	display: block;
 	margin-bottom: 2px;
 }
