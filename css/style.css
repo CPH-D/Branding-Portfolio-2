@@ -1240,8 +1240,8 @@ h6 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 1;
-	width: 45px;
-	height: 45px;
+	width: 50px;
+	height: 50px;
 }
 
 .orido_tm_informations .skillbox .name {
